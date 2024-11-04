@@ -1,0 +1,84 @@
+body {
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(48, 45, 49);
+color: azure;
+padding: 10px;
+text-align: center;
+
+}
+
+nav a{
+
+
+color: #000000;
+text-decoration: none;
+margin: 0 10px;
+
+}
+
+nav{
+
+background-color: aliceblue;
+color:beige;
+padding: 10px;
+text-align: center;
+
+}
+
+footer{
+
+background-color: #333;
+color: #fff;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+
+}
+
+section{
+padding: 50px;
+text-align: center;
+
+}
+
+
+.bilde1{
+position: absolute;
+left: 300px;
+height: 200px;
+width: 200px;
+
+}
+
+#section1{
+
+    background-color: rgb(25, 22, 26);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+
+#section2 {
+   
+    width: 20%;        /* Justerer bredden til 50% av containeren */
+    height: auto;      /* Holder bildets proporsjoner */
+    margin-right: 100%;
+  }
+
+  #section3 {
+   
+    width: 14%;        /* Justerer bredden til 50% av containeren */
+    height: auto;      /* Holder bildets proporsjoner */
+    position: relative;
+    right: 20%;
+    top: -300px;
+  }
